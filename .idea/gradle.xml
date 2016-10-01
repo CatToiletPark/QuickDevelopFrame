@@ -9,8 +9,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/EasyGo_Main" />
             <option value="$PROJECT_DIR$/EasyGo_framework" />
+            <option value="$PROJECT_DIR$/EasyGo_main" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
