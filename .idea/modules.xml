@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EasyGo_framework/EasyGo_framework.iml" filepath="$PROJECT_DIR$/EasyGo_framework/EasyGo_framework.iml" />
-      <module fileurl="file://$PROJECT_DIR$/EasyGo_main/EasyGo_Main.iml" filepath="$PROJECT_DIR$/EasyGo_main/EasyGo_Main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EasyGo_main/EasyGo_main.iml" filepath="$PROJECT_DIR$/EasyGo_main/EasyGo_main.iml" />
       <module fileurl="file://$PROJECT_DIR$/QuickDevelopFrame.iml" filepath="$PROJECT_DIR$/QuickDevelopFrame.iml" />
     </modules>
   </component>

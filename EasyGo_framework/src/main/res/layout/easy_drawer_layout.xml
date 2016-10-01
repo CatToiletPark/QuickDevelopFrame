@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.easygo.framework.ui.widget.EasyGoDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/common_drawer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
+    <!-- As the main content view, the view below consumes the entire
+         space available using match_parent in both dimensions. -->
+
+    <com.easygo.framework.ui.widget.EasyGoFrameLayout
+        android:id="@+id/common_drawer_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- android:layout_gravity="start" tells DrawerLayout to treat
+         this as a sliding drawer on the left side for left-to-right
+         languages and on the right side for right-to-left languages.
+         The drawer is given a fixed width in dp and extends the full height of
+         the container. A solid background is used for contrast
+         with the content view. -->
+
+    <com.easygo.framework.ui.widget.EasyGoListView
+        android:id="@+id/common_drawer_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </com.easygo.framework.ui.widget.EasyGoDrawerLayout>

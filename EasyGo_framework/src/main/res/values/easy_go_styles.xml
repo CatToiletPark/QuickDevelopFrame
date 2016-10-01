@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--通用文本内容样式-->
+    <style name="common_content_text_view_style">
+        <item name="android:textSize">@dimen/x43</item>
+        <item name="android:textColor">@color/text_color_2</item>
+    </style>
+
+    <!--每行的边距-->
+    <style name="base_line">
+        <item name="android:paddingBottom">@dimen/y43</item>
+        <item name="android:paddingTop">@dimen/y43</item>
+    </style>
+
+</resources>

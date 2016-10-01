@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.easygo.framework.ui.widget.EasyGoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/base_line"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <com.easygo.framework.ui.widget.EasyGoTextView
+        android:id="@+id/menu_title"
+        style="@style/common_content_text_view_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="标题一" />
+
+    <com.easygo.framework.ui.widget.EasyGoImageView
+        android:id="@+id/menu_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x432"
+        android:src="@mipmap/ic_launcher" />
+
+</com.easygo.framework.ui.widget.EasyGoRelativeLayout>

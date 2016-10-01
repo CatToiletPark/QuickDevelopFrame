@@ -1,11 +1,13 @@
 package com.example.lyh.quickdevelopframe;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
 import com.easygo.framework.view.activity.base.EasyBaseActivity;
 
 import butterknife.BindView;
+import butterknife.OnClick;
 
 public class MainActivity extends EasyBaseActivity {
 
@@ -18,4 +20,11 @@ public class MainActivity extends EasyBaseActivity {
         setContentView(R.layout.activity_main);
         textView.setText("hello ha");
     }
+
+    @OnClick(R.id.test)
+    public void toTest() {
+        Intent intent = new Intent(MainActivity.this, TestActivity.class);
+        startActivity(intent);
+    }
+
 }
