@@ -1,1 +1,1 @@
-include ':EasyGo_main', ':EasyGo_framework'
+include ':EasyGo_Main', ':EasyGo_framework'

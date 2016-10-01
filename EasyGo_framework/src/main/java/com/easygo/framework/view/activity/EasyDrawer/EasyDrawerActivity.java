@@ -12,7 +12,6 @@ import java.util.List;
 
 /**
  * @author by lyh on 2016/10/1 13:04.
- *         version 1.0
  * @description 带抽屉的activity
  */
 
