@@ -10,11 +10,11 @@ import butterknife.ButterKnife;
 
 /**
  * @author by lyh on 2016/10/1 10:22.
- *         version 1.0
  * @description activity 基类
  */
 
 public class EasyBaseActivity extends AppCompatActivity {
+
 
     @Override
     public void setContentView(@LayoutRes int layoutResID) {

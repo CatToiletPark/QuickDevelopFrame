@@ -23,7 +23,8 @@ public class MainActivity extends EasyBaseActivity {
 
     @OnClick(R.id.test)
     public void toTest() {
-       
+        Intent intent = new Intent(MainActivity.this, TestActivity.class);
+        startActivity(intent);
     }
 
 }

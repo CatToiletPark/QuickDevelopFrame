@@ -1,4 +1,4 @@
-package com.easygo.framework.view.activity.EasyDrawer;
+package com.easygo.framework.view.activity.easydrawer;
 
 /**
  * description :

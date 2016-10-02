@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">QuickDevelopFrame</string>
+    <string name="open_string">open</string>
+    <string name="close_string">close</string>
 </resources>
