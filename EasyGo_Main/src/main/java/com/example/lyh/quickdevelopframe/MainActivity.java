@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.easygo.framework.view.activity.base.EasyBaseActivity;
+import com.easygo.framework.view.activity.easybase.EasyBaseActivity;
 
 import butterknife.BindView;
 import butterknife.OnClick;

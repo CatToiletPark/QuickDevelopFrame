@@ -4,7 +4,6 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.LayoutRes;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +13,7 @@ import com.easygo.framework.ui.widget.EasyGoCcbSlidingPaneLayout;
 import com.easygo.framework.ui.widget.EasyGoFrameLayout;
 import com.easygo.framework.ui.widget.EasyGoListView;
 import com.easygo.framework.utils.EasyGoCommonUtils;
+import com.easygo.framework.view.activity.easybase.EasyBaseActivity;
 import com.example.framework.R;
 
 import java.util.List;
@@ -24,7 +24,7 @@ import java.util.List;
  *         description: 带抽屉的activity
  */
 
-public abstract class EasyDrawerActivity extends AppCompatActivity {
+public abstract class EasyDrawerActivity extends EasyBaseActivity {
 
     private EasyDrawerMenuAdapter menuAdapter;
 
