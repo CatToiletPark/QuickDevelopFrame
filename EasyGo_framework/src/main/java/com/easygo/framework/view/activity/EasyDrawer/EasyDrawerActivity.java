@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.easygo.framework.ui.widget.EasyGoCcbSlidingPaneLayout;
+import com.easygo.framework.ui.widget.EasyGoSlidingPaneLayout;
 import com.easygo.framework.ui.widget.EasyGoFrameLayout;
 import com.easygo.framework.ui.widget.EasyGoListView;
 import com.easygo.framework.utils.EasyGoCommonUtils;
@@ -54,7 +54,7 @@ public abstract class EasyDrawerActivity extends EasyBaseActivity {
         params = params == null ? new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT) : params;
         contentContainer.addView(view, params);
         //抽屉 TODO
-        EasyGoCcbSlidingPaneLayout menuDrawer = EasyGoCommonUtils.$(contentView, R.id.common_drawer);
+        EasyGoSlidingPaneLayout menuDrawer = EasyGoCommonUtils.$(contentView, R.id.common_drawer);
         menuDrawer.setSliderFadeColor(Color.argb(127,Color.red(Color.BLACK),Color.green(Color.BLACK),Color.blue(Color.BLACK)));
         super.setContentView(contentView);
     }

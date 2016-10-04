@@ -10,16 +10,16 @@ import android.util.AttributeSet;
  * @author by lyh on 2016/10/2 11:17.
  */
 
-public class EasyGoCcbSlidingPaneLayout extends SlidingPaneLayout {
-    public EasyGoCcbSlidingPaneLayout(Context context) {
+public class EasyGoSlidingPaneLayout extends SlidingPaneLayout {
+    public EasyGoSlidingPaneLayout(Context context) {
         super(context);
     }
 
-    public EasyGoCcbSlidingPaneLayout(Context context, AttributeSet attrs) {
+    public EasyGoSlidingPaneLayout(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public EasyGoCcbSlidingPaneLayout(Context context, AttributeSet attrs, int defStyle) {
+    public EasyGoSlidingPaneLayout(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
     }
 }
