@@ -28,6 +28,8 @@ public abstract class EasyDrawerActivity extends EasyBaseActivity {
 
     private EasyDrawerMenuAdapter menuAdapter;
 
+    protected EasyGoSlidingPaneLayout menuDrawer;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,8 +56,8 @@ public abstract class EasyDrawerActivity extends EasyBaseActivity {
         params = params == null ? new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT) : params;
         contentContainer.addView(view, params);
         //抽屉 TODO
-        EasyGoSlidingPaneLayout menuDrawer = EasyGoCommonUtils.$(contentView, R.id.common_drawer);
-        menuDrawer.setSliderFadeColor(Color.argb(127,Color.red(Color.BLACK),Color.green(Color.BLACK),Color.blue(Color.BLACK)));
+        menuDrawer = EasyGoCommonUtils.$(contentView, R.id.common_drawer);
+        menuDrawer.setSliderFadeColor(Color.argb(127, Color.red(Color.BLACK), Color.green(Color.BLACK), Color.blue(Color.BLACK)));
         super.setContentView(contentView);
     }
 
