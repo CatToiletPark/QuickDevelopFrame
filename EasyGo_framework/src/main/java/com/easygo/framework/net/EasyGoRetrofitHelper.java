@@ -15,11 +15,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class EasyGoRetrofitHelper {
 
-    private static final String baseUrl = "";
-
     private static Retrofit.Builder builder = new Retrofit.Builder();
 
-    public static Retrofit getInstanceOf() {
+    public static Retrofit getInstanceOf(String baseUrl) {
         return builder.baseUrl(baseUrl)
                 .addConverterFactory(GsonConverterFactory.create(new Gson()))
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
