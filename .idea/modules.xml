@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EasyGo_Main/EasyGo_Main.iml" filepath="$PROJECT_DIR$/EasyGo_Main/EasyGo_Main.iml" />
       <module fileurl="file://$PROJECT_DIR$/EasyGo_framework/EasyGo_framework.iml" filepath="$PROJECT_DIR$/EasyGo_framework/EasyGo_framework.iml" />
-      <module fileurl="file://$PROJECT_DIR$/QuickDevelopFrame.iml" filepath="$PROJECT_DIR$/QuickDevelopFrame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QuickDevelop.iml" filepath="$PROJECT_DIR$/QuickDevelop.iml" />
     </modules>
   </component>
 </project>
