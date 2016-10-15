@@ -21,11 +21,17 @@
         android:id="@+id/test"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="跳转到test"/>
+        android:text="跳转到test" />
 
     <Button
         android:id="@+id/test_tab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="跳转到tab"/>
+        android:text="跳转到tab" />
+
+    <Button
+        android:id="@+id/test_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转bottom"/>
 </LinearLayout>

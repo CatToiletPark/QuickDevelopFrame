@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.easygo.framework.ui.widget.EasyGoCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ccb="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.easygo.framework.ui.widget.recylcerview.EasyGoRecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.easygo.framework.ui.widget.EasyGoButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="@dimen/y43"
+        android:paddingTop="@dimen/y43"
+        android:text="下一步"
+        android:layout_gravity="bottom"
+        ccb:layout_behavior="com.easygo.framework.view.activity.easytab.behavior.BottomPageBehavior" />
+
+</com.easygo.framework.ui.widget.EasyGoCoordinatorLayout>

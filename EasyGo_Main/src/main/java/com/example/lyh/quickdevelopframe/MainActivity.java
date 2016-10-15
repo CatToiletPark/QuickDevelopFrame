@@ -35,4 +35,10 @@ public class MainActivity extends EasyBaseActivity {
         startActivity(intent);
     }
 
+    @OnClick(R.id.test_bottom)
+    public void toBottom() {
+        Intent intent = new Intent(MainActivity.this, TestBottomActivity.class);
+        startActivity(intent);
+    }
+
 }

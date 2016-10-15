@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.easygo.framework.ui.widget.EasyGoTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingBottom="@dimen/y43"
+    android:paddingTop="@dimen/y43"
+    android:textColor="@color/text_color_2"
+    android:textSize="@dimen/x43" />
